@@ -3,6 +3,6 @@ kind: Kustomization
 
 resources:
 - admin.yaml
-- https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended.yaml
+- https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
 
 namespace: kubernetes-dashboard
