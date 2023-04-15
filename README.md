@@ -20,7 +20,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/s6n-jp/k8s.git
+    repoURL: https://github.com/yudejp/infra.git
     path: .
     targetRevision: main
     directory:
