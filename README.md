@@ -13,7 +13,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: k8s
+  name: infra
   namespace: argocd
 spec:
   project: default
